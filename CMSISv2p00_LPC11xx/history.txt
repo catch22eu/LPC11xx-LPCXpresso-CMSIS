@@ -1,0 +1,38 @@
+History of updates to CMSISv2p00_LPC11xx
+========================================
+
+22 February 2012
+---------------
+Updated version of LPC11xx.h with latest received from NXP with
+version... '$Id:: LPC11xx.h 9198 2012-02-22 01:04:53Z usb00175',
+containing update to LPC11xx_TMR and NMISRC register (SYSCON) 
+for LPC11 Gen3 parts.
+
+4 January 2012
+--------------
+Updated version of LPC11xx.h with latest received from NXP with
+version... '$Id:: LPC11xx.h 8860 2011-12-22 23:12:34Z usb00175'
+
+Note in particular that this new header no longer includes the
+'SYSTICKCLKDIV' register in the  'LPC_SYSCON' peripheral. This
+register had been erroneously included in previous versions as
+a carry over from LPC13xx. In the LPC11xx family, the SysTick
+timer is clocked from the CPU clock or from the reference clock,
+which is fixed to half the frequency of the CPU clock.
+
+2 June 2011
+-----------
+Updated version of core_cm0.h from ARM (V2.03, dated
+23. May 2011) - with main change being removal of 
+core debug registers (which are not accessible from
+application code on Cortex-M0).
+
+7 March 2011
+------------
+LPC11xx CMSIS 2.0 library project using ARM 
+Cortex-M0 CMSIS files as supplied in ARM's CMSIS 2.0
+December 2010 release, together with device/board 
+specific files from NXP (as previously supplied in
+CMSISv1p30_LPC11xx library project, dated 12 Jul 2010).
+
+Note files are built -Os for both Debug and Release

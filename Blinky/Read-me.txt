@@ -1,0 +1,10 @@
+Purpose:
+Simple blinky for LPC11xx
+
+Note:Tested on LPCXpresso LPC1114 
+ 
+Running mode:
+* Build and debug
+
+Output:
+PIO0_7 toggles continuosly

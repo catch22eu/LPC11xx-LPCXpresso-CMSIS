@@ -1,0 +1,12 @@
+Purpose:
+Implements Blinky using Systick handler on LPC11xx.
+
+Note:Tested on LPCXpresso LPC1114 
+
+Running mode:
+* Build and debug
+
+Description:
+Systick handler setup for 10ms interrupt.
+PIO0_7 is configured as the output bit and toggles continuosly.
+

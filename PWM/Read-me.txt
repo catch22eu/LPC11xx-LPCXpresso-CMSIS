@@ -1,0 +1,20 @@
+Purpose:
+This example implements Pulse Width Modulation Test modules on LPC11xx
+
+Note:Tested on LPCXpresso LPC1114 with EA baseboard
+
+Running mode:
+* Build and debug
+
+Notes:
+Utilizing the PWM on LPC11xx, a specified GPIO bit (LED) is switched ON/OFF.
+The duty cycle can be controlled as desired.
+
+Output:
+Observe PWM signals on 
+*CT32B_1 MAT 0/PIO1_1 with Freq 12KHz Duty cycle 75%.
+*CT16B_0 MAT 1/PIO1_10 Freq 12KHz Duty cycle 50%.
+*PIO2_0 toggles continuosly.
+
+Specs:
+PWM frequency used = 48KHz

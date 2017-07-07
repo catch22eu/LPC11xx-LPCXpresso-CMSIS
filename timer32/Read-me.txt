@@ -1,0 +1,10 @@
+Purpose:
+Demonstrate 32-bit timer example
+
+Note:Tested on LPCXpresso LPC1114
+
+Running mode:
+* Build and debug
+
+Description:
+PIO0_7 is set as the output bit and toggles contiuosly.

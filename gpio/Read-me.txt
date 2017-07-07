@@ -1,0 +1,9 @@
+Purpose:
+Program to test GPIO modules
+
+Running mode:
+* Build and debug
+
+Output:
+Based on the input interrupt received on the GPIO ports, the interrupt edge(rising/falling edge or level) 
+is detected and the respective register(SIENR-Set Pin Interrupt Enable (Rising) register,SIENF-Set Pin Interrupt Enable Falling Edge) is set.
